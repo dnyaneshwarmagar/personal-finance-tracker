@@ -103,7 +103,7 @@ const Dashboard = () => {
             setIsExpenseModalVisible={setIsExpenseModalVisible}
             setIsIncomeModalVisible={setIsIncomeModalVisible}
           />
-          {transactions && transactions.length != 0? <Charts transactions={transactions}/>:<><img src={no_transaction_img} alt="img"/></>}
+          {transactions && transactions.length != 0? <Charts transactions={transactions}/>:<><img className="no_transaction_img" src={no_transaction_img} alt="img"/></>}
           <AddIncome
             isIncomeModalVisible={isIncomeModalVisible}
             setIsIncomeModalVisible={setIsIncomeModalVisible}

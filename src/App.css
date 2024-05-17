@@ -29,3 +29,8 @@ border-radius: 0px;
     flex-direction: column;
     gap:1.5rem;
 }
+.no_transaction_img{
+    width: 40%;
+    position: relative;
+    left:30%
+}

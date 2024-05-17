@@ -9,11 +9,21 @@
     justify-content: space-between;
     align-items: center;
     color: var(--white);
+    z-index: 10;
 }
 .logo{
-
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+.logo_div{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.logo_div > img{
+    width: 2rem;
+    height: 1.8rem;
+    border-radius: 50%;
 }
 .link{
     opacity: 0.8;

@@ -3,8 +3,11 @@
     max-width: 450px;
     height: auto;
     box-shadow: var(--shadow);
-    padding: 1rem;
+    padding:1.5rem 3rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem
 }
 .title{
     font-weight: 500;

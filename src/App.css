@@ -5,3 +5,27 @@
     width: 100vw;
     height: 90vh;
 }
+
+.custom-input{
+border: 0px;
+border-bottom: 1px solid black;
+padding:0.5rem 0rem;
+width: 100%;
+margin-top: -1rem;
+border-radius: 0px;
+}
+.custom-input::placeholder{
+    color:rgba(0,0,0,0,0.5);
+
+}
+.custom-input:focus{
+    outline: none;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.dashboard_box{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}

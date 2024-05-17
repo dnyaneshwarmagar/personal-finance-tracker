@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <ToastContainer />
       <>
+        <Header/>
         <Routes>
           <Route path="/" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
